@@ -16,7 +16,7 @@ body {
 .container {
   margin: 0 auto;
   width: 375px;
-  background-color: black;
+  background-color: white;
 }
 
 nav {
@@ -45,17 +45,15 @@ nav {
 }
 
 .frequency {
-  display: inline;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  display: inline-block;
+  height: 64px;
 }
 
 .location h1 {
   font-family: "SF Pro Display", "SF", sans-serif;
-  font-size: 17px;
+  font-size: 16px;
   line-height: normal;
   letter-spacing: 0.0241em;
-  text-indent: 70px;
 }
 
 .location h3 {
@@ -63,26 +61,25 @@ nav {
   font-size: 12px;
   color: #8A8A8F;
   line-height: 2;
-  text-indent: 70px;
+}
+
+.bus-number {
+  display: inline-block;
 }
 
 .bus-number h2 {
   font-family: "SF Pro Display", "SF", sans-serif;
-  text-indent: 10px;
 }
 
 .bus-number h4 {
   font-family: "SF Pro Display", "SF", sans-serif;
   padding: 2px;
-  width: 10%;
+  width: 50%;
   border-radius: 2px;
   background-color: #14CCBD;
-  background-clip: border-box;
-  background-position: center;
   text-align: center;
   font-size: 16px;
   color: white;
-
 }
 
 .bus-stops {
@@ -92,11 +89,16 @@ nav {
 
 .arrow {
 float: right;
-display: block;
+display: inline-block;
+padding-top: 15px;
 color: lightgrey;
+padding-right: 10px;
 }
 
 .location {
-  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  display: inline-block;
   border-bottom: 1px solid #BCBBC1;
 }
