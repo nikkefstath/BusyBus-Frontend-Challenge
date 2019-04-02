@@ -1,0 +1,102 @@
+*, *:before, *:after {
+box-sizing: border-box;
+}
+
+.scroll {
+  overflow-y: scroll;
+}
+
+body {
+  background-color: #333;
+  font-family: sans-serif;
+  font-size: 10px;
+  line-height: 1.2;
+}
+
+.container {
+  margin: 0 auto;
+  width: 375px;
+  background-color: black;
+}
+
+nav {
+  margin: 0 auto;
+  padding: 15px 0 15px 15px;
+  position: fixed;
+  width: 375px;
+  background-color: #14CCBD;
+}
+.photo {
+  background-image: url(../images/frame.jpg);
+  width: 100%;
+  height: 270px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.divider {
+  font-family: "SF Pro Display", "SF", sans-serif;
+  font-size: 10px;
+  width: 100%;
+  height: 25px;
+  background-color: #EFEFEF;
+  text-indent: 10px;
+  padding-top: 6px;
+}
+
+.frequency {
+  display: inline;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.location h1 {
+  font-family: "SF Pro Display", "SF", sans-serif;
+  font-size: 17px;
+  line-height: normal;
+  letter-spacing: 0.0241em;
+  text-indent: 70px;
+}
+
+.location h3 {
+  font-family: "SF Pro Display", "SF", sans-serif;
+  font-size: 12px;
+  color: #8A8A8F;
+  line-height: 2;
+  text-indent: 70px;
+}
+
+.bus-number h2 {
+  font-family: "SF Pro Display", "SF", sans-serif;
+  text-indent: 10px;
+}
+
+.bus-number h4 {
+  font-family: "SF Pro Display", "SF", sans-serif;
+  padding: 2px;
+  width: 10%;
+  border-radius: 2px;
+  background-color: #14CCBD;
+  background-clip: border-box;
+  background-position: center;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+
+}
+
+.bus-stops {
+  width: 100%;
+  background-color: white;
+}
+
+.arrow {
+float: right;
+display: block;
+color: lightgrey;
+}
+
+.location {
+  display: block;
+  border-bottom: 1px solid #BCBBC1;
+}
