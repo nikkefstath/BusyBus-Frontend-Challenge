@@ -101,15 +101,6 @@ h5 {
 .bus-number h2 {
   font-family: "SF Pro Display", "SF", sans-serif;
   letter-spacing: 0.0241em;
-  padding-left: 2px;
-  text-align: center;
-  padding-bottom: 2px;
-
-}
-
-.bus-number h4 {
-  font-family: "SF Pro Display", "SF", sans-serif;
-  letter-spacing: 0.0241em;
   width: 30px;
   border-radius: 2px;
   background-color: #14CCBD;
@@ -119,7 +110,15 @@ h5 {
   margin: auto;
 }
 
-.OOS h4 {
+.bus-number h4 {
+  font-family: "SF Pro Display", "SF", sans-serif;
+  letter-spacing: 0.0241em;
+  padding-left: 2px;
+  text-align: center;
+  padding-bottom: 2px;
+}
+
+.OOS h2 {
   font-family: "SF Pro Display", "SF", sans-serif;
   letter-spacing: 0.0241em;
   padding: 2px;
@@ -131,6 +130,7 @@ h5 {
   color: white;
   margin: auto;
 }
+
 .status {
   font-family: "SF Pro Display", "SF", sans-serif;
   letter-spacing: 0.0241em;
@@ -142,14 +142,20 @@ h5 {
   text-align: left;
 }
 .reroute h2 {
-  color: grey;
+  color: blue;
 }
 .delayed h2 {
   color: red;
   text-align: left;
 }
+
+.OOStime h2 {
+  color: grey;
+  text-align: left;
+}
 .bus-stops {
-  width: 100%;
+  width: 375px;
+  margin: auto;
   background-color: white;
 }
 
