@@ -8,7 +8,7 @@ box-sizing: border-box;
 
 body {
   background-color: #333;
-  font-family: sans-serif;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-size: 10px;
   line-height: 1.2;
 }
@@ -36,7 +36,6 @@ nav {
   margin: auto;
   color: white;
   font-size: 17px;
-  font-family: "SF Pro Display", "SF", sans-serif;
   letter-spacing: 0.0241em;
   text-align: center;
   width: 85%;
@@ -61,7 +60,6 @@ nav {
 }
 
  h5 {
-  font-family: "SF Pro Display", "SF", sans-serif;
   font-size: 10px;
   width: 100%;
   height: 25px;
@@ -83,14 +81,12 @@ h5 {
 }
 
 .location h1 {
-  font-family: "SF Pro Display", "SF", sans-serif;
   font-size: 16px;
   line-height: normal;
   letter-spacing: 0.0241em;
 }
 
 .location h3 {
-  font-family: "SF Pro Display", "SF", sans-serif;
   letter-spacing: 0.0241em;
   font-size: 12px;
   color: #8A8A8F;
@@ -104,7 +100,6 @@ h5 {
 }
 
 .bus-number h2 {
-  font-family: "SF Pro Display", "SF", sans-serif;
   letter-spacing: 0.0241em;
   width: 30px;
   border-radius: 2px;
@@ -116,7 +111,6 @@ h5 {
 }
 
 .bus-number h4 {
-  font-family: "SF Pro Display", "SF", sans-serif;
   letter-spacing: 0.0241em;
   padding-left: 2px;
   text-align: center;
@@ -124,7 +118,6 @@ h5 {
 }
 
 .OOS h2 {
-  font-family: "SF Pro Display", "SF", sans-serif;
   letter-spacing: 0.0241em;
   padding: 2px;
   width: 30px;
@@ -137,7 +130,6 @@ h5 {
 }
 
 .status {
-  font-family: "SF Pro Display", "SF", sans-serif;
   letter-spacing: 0.0241em;
   display: inline-block;
 }
