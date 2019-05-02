@@ -18,7 +18,11 @@ body {
   width: 375px;
   background-color: white;
 }
-
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 nav {
   position: fixed;
   width: 375px;
@@ -55,7 +59,7 @@ nav {
   background-repeat: no-repeat;
 }
 
-.divider h5 {
+ h5 {
   font-family: "SF Pro Display", "SF", sans-serif;
   font-size: 10px;
   width: 100%;
@@ -68,7 +72,6 @@ nav {
 
 h5 {
   padding-left: 10px;
-
 }
 
 .frequency {
