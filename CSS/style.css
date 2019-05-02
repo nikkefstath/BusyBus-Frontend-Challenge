@@ -22,12 +22,13 @@ img {
   display: block;
   width: 100%;
   height: auto;
+  padding-bottom: 10px;
 }
 nav {
   position: fixed;
   width: 375px;
   background-color: #14CCBD;
-  padding: 15px 0 15px 15px;
+  padding: 0px 5px 15px 15px;
 }
 
 .Search-stop {
